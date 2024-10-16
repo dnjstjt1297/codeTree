@@ -23,15 +23,8 @@ public class Main {
             max = Math.max(max,lines[i]);
         }
 
-        int result = 0;
-
-        for(int i = 0;i<=inf;i++){
-            if(max==lines[i]){
-                if(i>0 && lines[i-1]==lines[i]) continue;
-                else result++;
-            }
-        }
-        System.out.println(result);
+        
+        System.out.println(max);
         
 
     }
